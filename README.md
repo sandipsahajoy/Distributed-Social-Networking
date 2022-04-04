@@ -7,7 +7,7 @@ Thus in the spirit of diaspora https://diasporafoundation.org/ we want to build 
 
 This blogging/social network platform will allow the importing of other sources of posts (github, twitter, etc.) as well allow the distributing sharing of posts and content.
 
-## Heroku Deployment (Active)
+## PaaS Deployment - Heroku (Active)
 > [cmput404-project-w22.herokuapp.com](https://cmput404-project-w22.herokuapp.com)
 >  - Approved Login Credentials for Public:
 >    - Username: `team02user`
