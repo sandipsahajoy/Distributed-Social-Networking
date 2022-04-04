@@ -9,8 +9,9 @@ This blogging/social network platform will allow the importing of other sources 
 
 ## Heroku Deployment (Active)
 > [cmput404-project-w22.herokuapp.com](https://cmput404-project-w22.herokuapp.com)
->  - Username: `team02user`
->  - Password: `user`
+>  - Approved Login Credentials for Public:
+>    - Username: `team02user`
+>    - Password: `user`
 #### Web Service API Endpoint
 - [cmput404-project-w22.herokuapp.com/service](https://cmput404-project-w22.herokuapp.com/service)
 #### API Endpoints Documentation
