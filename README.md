@@ -32,15 +32,15 @@ This blogging/social network platform will allow the importing of other sources 
    - Database: postgres
    - Username: admin
    - Password: root
-6. Run `python manage.py migrate` to apply migration to the postgres server
+6. Run `python manage.py migrate` to apply database migration to the postgres database server
 7. Create a copy of the `.env.example` and name it `.env`. Then: 
    - Add a secret key (for example `SECRET_KEY = *`)
    - Change `USE_AWS_S3_MEDIA` to `false`
-   - If you want to test locally but use the heroku postgres server instead of the above local docker postgres server, change `TEST` to `true`
+   - If you want to test locally but use the heroku postgres database server instead of the above local docker postgres database server, change `TEST` to `true`
 8. Create superuser:
    - Local: Run `python manage.py create_admin`
    - Heroku: Run `heroku run -a cmput404-project-w22 python manage.py create_admin` 
-9. Run `heroku local` for non window user to start the server. Access it at `http://localhost:8000`
+9. Run `heroku local` for non window user to start the application server. Access it at `http://localhost:8000`
    - Window doesn't support gunicorn so you'll have to do `heroku local -f Procfile.window` 
 10. All the sign ups need to be approved by the superuser through admin panel before any login attempt
 11. Credentials of superuser for accessing `http://localhost:8000/admin`:
