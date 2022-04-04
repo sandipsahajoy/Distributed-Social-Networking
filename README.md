@@ -22,7 +22,7 @@ This blogging/social network platform will allow the importing of other sources 
 ## Local Deployment
 #### Instructions
 1. `git clone` this repo
-2. `cd wedlab-cmput404-project` to navigate to the project folder
+2. `cd Distributed-Social-Networking` to navigate to the project folder
 3. Create a python virtual environment in the project folder and activate the environment
 4. Run `pip install -r requirements.txt` to install project package dependencies
 5. Install [Docker engine](https://docs.docker.com/engine/install/)
