@@ -26,7 +26,7 @@ This blogging/social network platform will allow the importing of other sources 
 3. Create a python virtual environment in the project folder and activate the environment
 4. Run `pip install -r requirements.txt` to install project package dependencies
 5. Install [Docker engine](https://docs.docker.com/engine/install/)
-6. Run `docker-compose up` to spin up your local postgres server. If you want to access the database from a database browser, here is the details:
+6. Run `docker-compose up` to spin up your local postgres database server. If you want to access the database from a database browser, here is the details:
    - Host: localhost
    - Port: 5432
    - Database: postgres
