@@ -9,7 +9,7 @@ This blogging/social network platform will allow the importing of other sources 
 
 <img src="/home.gif" width="792" height="400" />
 
-## Demo
+## Demo Clips
 - [Clip 1](https://drive.google.com/file/d/1SxSe0UVCg7scICfTunEF8sjMY7t-AXpn/view?usp=sharing)
 
 ## PaaS Deployment - Heroku (Active)
